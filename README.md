@@ -5,7 +5,7 @@
 This is a classic type of task machine learning is Linear Regression. 
 **Random rainforest** and **Gradient Boosting** models were also used. 
 
-The aim of the project is prediction price in house market of Moscow. 
+The aim of the project is the price prediction in the Moscow real estate market. 
 
 ## Structure of Github:
 
