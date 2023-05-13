@@ -97,7 +97,7 @@ Sub area was decoded by binary encoding (134 categories)
 
 
 ### 8. Conclusion
-Including the categorical features into the dataset didn't give any model improvement. The best model for our case of real estate pricing prediction is Lasso.
+Including categorical features into the dataset didn't give any model improvement. The best model for our case of real estate pricing prediction is Lasso.
  
 ## Sources:
 
