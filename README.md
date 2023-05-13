@@ -67,12 +67,12 @@ Only highly correlated features were included into the dataset. Every included c
 Used method [StandardScaller](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) from Scikit-learn 
 
 ### 5. Training model with numeric features
-|  Model          |Score    |
+|  Model          |MSE   |
 |-----------------|---------|
-|**Lasso**        |**-0.08**|
-|Linear Regression|-124.98  |
-|Random Forest    |-216.34  |
-|Ridge            |-124.96  |
+|**Lasso**        |**0.0004**|
+|Linear Regression|0.05  |
+|Random Forest    |0.08  |
+|Ridge            |0.05  |
 
 The best model is [Lasso](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html). 
 
@@ -86,14 +86,14 @@ Sub area was decoded by binary encoding (134 categories)
 
 
 ### 7. Training model with numeric and categirical features
-|  Model          |Score    |
+|  Model          |MSE   |
 |-----------------|---------|
-|**Lasso**        |**-0.08**|
-|Linear Regression|-130.77  |
-|Random Forest    |-220.37  |
-|Ridge            |-130.77  |
-|XGBboost         |-256.32  |
-|Gradient Boosting|-197.14  |
+|**Lasso**        |**0.0004**|
+|Linear Regression|0.05  |
+|Random Forest    |0.08  |
+|Ridge            |0.05  |
+|XGBboost         |0.09  |
+|Gradient Boosting|0.09  |
 
 
 ### 8. Conclusion
